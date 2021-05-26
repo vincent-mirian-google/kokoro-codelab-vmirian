@@ -8,3 +8,5 @@ theme:
   name: "material"
 nav:
   - Overview: 'README.md'
+  - Home: 'index.md'
+  - Config: 'README.md'
