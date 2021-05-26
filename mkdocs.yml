@@ -15,14 +15,6 @@ nav:
   - Config: 'config.md'
   
 markdown_extensions:
-  - attr_list
-  - admonition
-  - footnotes
-  - pymdownx.details
-  - pymdownx.inlinehilite
-  - pymdownx.highlight:
-      use_pygments: false
-  - pymdownx.smartsymbols
   - pymdownx.superfences
   - pymdownx.tasklist
   - pymdownx.snippets:
