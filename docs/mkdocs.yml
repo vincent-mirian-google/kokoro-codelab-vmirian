@@ -1,6 +1,6 @@
 site_name: "CPP Proto Builder"
-repo_url: "https://github.com/google/cpp-proto-builder/"
-site_url: "https://google.github.io/cpp-proto-builder/"
+repo_url: "https://github.com/google/kokoro-codelab-vmirian/"
+site_url: "https://google.github.io/kokoro-codelab-vmirian/"
 edit_uri: 'tree/main/docs_src/'
 docs_dir: "docs_src/"
 site_dir: "docs/"
