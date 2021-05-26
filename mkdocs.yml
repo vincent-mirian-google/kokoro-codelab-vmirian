@@ -7,7 +7,9 @@ docs_dir: "docs_src/"
 site_dir: "docs/"
 theme:
   name: "material"
+  features:
+    - navigation.expand
 nav:
   - Overview: 'README.md'
-  - Home: 'README.md'
-  - Config: 'README.md'
+  - Home: 'home.md'
+  - Config: 'config.md'
