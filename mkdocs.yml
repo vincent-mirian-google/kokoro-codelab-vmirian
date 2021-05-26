@@ -10,6 +10,6 @@ theme:
   features:
     - navigation.expand
 nav:
-  - Overview: 'README.md'
+  - Overview: 'home.md'
   - Home: 'home.md'
   - Config: 'config.md'
