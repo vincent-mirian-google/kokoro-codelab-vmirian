@@ -1,0 +1,10 @@
+site_name: "CPP Proto Builder"
+repo_url: "https://github.com/google/cpp-proto-builder/"
+site_url: "https://google.github.io/cpp-proto-builder/"
+edit_uri: 'tree/main/docs_src/'
+docs_dir: "docs/"
+site_dir: "docs/"
+theme:
+  name: "material"
+nav:
+  - Overview: 'README.md'
