@@ -16,8 +16,5 @@ nav:
   
 markdown_extensions:
   - pymdownx.superfences
-  - pymdownx.tasklist
-  - pymdownx.snippets:
-      check_paths: true
   - toc:
       permalink: true
