@@ -1,4 +1,4 @@
-name: build and deploy mkdocs to github pages
+name: Build Documentation using MkDocs
 on:
   push:
     branches:
@@ -6,12 +6,15 @@ on:
       - main
       
 jobs:
-  deploy:
+  build:
+    name: Build and Deploy Documentation
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Setup Python
-        uses: actions/setup-python@v1
+      - name: Checkout Master
+        uses: actions/checkout@v2
+
+      - name: Set up Python 3.7
+        uses: actions/setup-python@v2
         with:
           python-version: '3.x'
       - name: Install dependencies
@@ -19,11 +22,7 @@ jobs:
           python3 -m pip install --upgrade pip     # install pip
           python3 -m pip install mkdocs            # install mkdocs 
           python3 -m pip install mkdocs-material   # install material theme
-      - name: Build site
-        run: mkdocs build
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-      #    github_token: $
-          publish_dir: ./docs
-      #run: mkdocs gh-deploy --force
+        run: |
+          git pull
+          mkdocs gh-deploy
