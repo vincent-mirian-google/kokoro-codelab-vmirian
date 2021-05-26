@@ -10,5 +10,5 @@ theme:
     - navigation.expand
 nav:
   - Overview: 'README.md'
-  - Home: 'README.md'
-  - Config: 'README.md'
+  - Home: 'home.md'
+  - Config: 'config.md'
